@@ -17,6 +17,7 @@ Get all songs in playlist
 Add song to playlist
 - method : POST
 - url : '/api/songs'
+- req body in json {"title": string, "artists": array of string, "url": string}
 - content-type : application/json
 
 Play song
