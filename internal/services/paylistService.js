@@ -12,6 +12,10 @@ class PlaylistService {
     static addSong(title, artists, url) {
         return PlaylistModel.addSong(title, artists, url);
     }
+
+    static sortSongs(key) {
+        return PlaylistModel.sortSongs(key);
+    }
 }
 
 module.exports = PlaylistService;
